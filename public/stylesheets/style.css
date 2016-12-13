@@ -1,0 +1,71 @@
+*{
+	margin: 0px ;
+	padding: 0px ;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #FFF ;
+}
+
+h1{
+	background-image: url("/images/true.jpg");
+	width: 824px ;
+	height: 300px ;		
+	margin: 0 auto ;
+
+	text-indent: -9999px ;
+}
+
+.topmemu{
+	width: 824px ;
+	margin: 0 auto ;
+
+}
+
+.topmemu li{
+	display: block; 
+	float: left ;
+	width: 412px ;
+	text-align: center; 
+	background-color: #007799;
+}
+
+a{
+	font-size: 24px ;	
+	line-height: 50px ;	
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.topmemu li:hover{
+	background-color: #003377;
+}
+
+.leftmemu{
+	position: fixed;
+	left: 20px ;
+	top:360px;
+}
+
+.leftmemu li{
+	display: block; 
+	line-height: 50px ;
+	background-color: #007799;
+	width: 200px; 
+	text-align: center; 
+}
+
+
+.content{
+	width: 824px ;
+	margin: 0 auto ;
+}
+
+.content p{
+	font-size: 20px ;
+	line-height: 30px;
+	padding-left: 40px;
+	padding-top: 30px;
+	font-family: serif,sans-serif,cursive,fantasy,monospace;
+}
